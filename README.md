@@ -1,5 +1,7 @@
 # dropbox-downloader
-python script to download publicly shared dropbox folders into zip files 
+python script to download publicly shared dropbox folders into zip files
+
+can read links from a file
 
 **supports only publicly shared links**
 ```
@@ -13,7 +15,7 @@ optional arguments:
   --retain_zip              don't delete zipfiles after unzipping, when --unzip is used
   ```
 
-**NOTE:** I created this repo to teach myself some python & git
+**NOTE:** I created this repo to teach myself some python & git. Feedbacks are appreciated.
 
 ## requirements
 
