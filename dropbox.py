@@ -57,7 +57,7 @@ RETRIES = Retry(total=10, backoff_factor=2)
 ERASE = "\033[2K"
 
 #argument parser
-argsParser = argparse.ArgumentParser(description="Python script to download public Dropbox folders/files as zip files")
+argsParser = argparse.ArgumentParser(description="python script to download dropbox public folders as zip files")
 groupArgsParser = argsParser.add_mutually_exclusive_group()
 groupArgsParser.add_argument("--links" ,type=str, nargs="+", const=None, help="read links from STDI")
 groupArgsParser.add_argument("--read" ,metavar="file.txt", type=argparse.FileType("r", encoding="UTF-8"), const=None, help="read links from file")
